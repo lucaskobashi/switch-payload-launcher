@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		656654EF28654A70004556E0 /* Switch_Payload_LauncherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656654EE28654A70004556E0 /* Switch_Payload_LauncherApp.swift */; };
+		656654F128654A70004556E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656654F028654A70004556E0 /* ContentView.swift */; };
+		656654F328654A73004556E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656654F228654A73004556E0 /* Assets.xcassets */; };
+		656654F628654A73004556E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656654F528654A73004556E0 /* Preview Assets.xcassets */; };
+		6566550128654A73004556E0 /* Switch_Payload_LauncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566550028654A73004556E0 /* Switch_Payload_LauncherTests.swift */; };
+		6566550B28654A73004556E0 /* Switch_Payload_LauncherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566550A28654A73004556E0 /* Switch_Payload_LauncherUITests.swift */; };
+		6566550D28654A73004556E0 /* Switch_Payload_LauncherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566550C28654A73004556E0 /* Switch_Payload_LauncherUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		656654FD28654A73004556E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 656654E328654A70004556E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 656654EA28654A70004556E0;
+			remoteInfo = "Switch Payload Launcher";
+		};
+		6566550728654A73004556E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 656654E328654A70004556E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 656654EA28654A70004556E0;
+			remoteInfo = "Switch Payload Launcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		656654EB28654A70004556E0 /* Switch Payload Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Switch Payload Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		656654EE28654A70004556E0 /* Switch_Payload_LauncherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch_Payload_LauncherApp.swift; sourceTree = "<group>"; };
+		656654F028654A70004556E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		656654F228654A73004556E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		656654F528654A73004556E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		656654F728654A73004556E0 /* Switch_Payload_Launcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Switch_Payload_Launcher.entitlements; sourceTree = "<group>"; };
+		656654FC28654A73004556E0 /* Switch Payload LauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Switch Payload LauncherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6566550028654A73004556E0 /* Switch_Payload_LauncherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch_Payload_LauncherTests.swift; sourceTree = "<group>"; };
+		6566550628654A73004556E0 /* Switch Payload LauncherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Switch Payload LauncherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6566550A28654A73004556E0 /* Switch_Payload_LauncherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch_Payload_LauncherUITests.swift; sourceTree = "<group>"; };
+		6566550C28654A73004556E0 /* Switch_Payload_LauncherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch_Payload_LauncherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		656654E828654A70004556E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656654F928654A73004556E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6566550328654A73004556E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		656654E228654A70004556E0 = {
+			isa = PBXGroup;
+			children = (
+				656654ED28654A70004556E0 /* Switch Payload Launcher */,
+				656654FF28654A73004556E0 /* Switch Payload LauncherTests */,
+				6566550928654A73004556E0 /* Switch Payload LauncherUITests */,
+				656654EC28654A70004556E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		656654EC28654A70004556E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				656654EB28654A70004556E0 /* Switch Payload Launcher.app */,
+				656654FC28654A73004556E0 /* Switch Payload LauncherTests.xctest */,
+				6566550628654A73004556E0 /* Switch Payload LauncherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		656654ED28654A70004556E0 /* Switch Payload Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				656654EE28654A70004556E0 /* Switch_Payload_LauncherApp.swift */,
+				656654F028654A70004556E0 /* ContentView.swift */,
+				656654F228654A73004556E0 /* Assets.xcassets */,
+				656654F728654A73004556E0 /* Switch_Payload_Launcher.entitlements */,
+				656654F428654A73004556E0 /* Preview Content */,
+			);
+			path = "Switch Payload Launcher";
+			sourceTree = "<group>";
+		};
+		656654F428654A73004556E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				656654F528654A73004556E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		656654FF28654A73004556E0 /* Switch Payload LauncherTests */ = {
+			isa = PBXGroup;
+			children = (
+				6566550028654A73004556E0 /* Switch_Payload_LauncherTests.swift */,
+			);
+			path = "Switch Payload LauncherTests";
+			sourceTree = "<group>";
+		};
+		6566550928654A73004556E0 /* Switch Payload LauncherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6566550A28654A73004556E0 /* Switch_Payload_LauncherUITests.swift */,
+				6566550C28654A73004556E0 /* Switch_Payload_LauncherUITestsLaunchTests.swift */,
+			);
+			path = "Switch Payload LauncherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		656654EA28654A70004556E0 /* Switch Payload Launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6566551028654A73004556E0 /* Build configuration list for PBXNativeTarget "Switch Payload Launcher" */;
+			buildPhases = (
+				656654E728654A70004556E0 /* Sources */,
+				656654E828654A70004556E0 /* Frameworks */,
+				656654E928654A70004556E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Switch Payload Launcher";
+			productName = "Switch Payload Launcher";
+			productReference = 656654EB28654A70004556E0 /* Switch Payload Launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		656654FB28654A73004556E0 /* Switch Payload LauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6566551328654A73004556E0 /* Build configuration list for PBXNativeTarget "Switch Payload LauncherTests" */;
+			buildPhases = (
+				656654F828654A73004556E0 /* Sources */,
+				656654F928654A73004556E0 /* Frameworks */,
+				656654FA28654A73004556E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656654FE28654A73004556E0 /* PBXTargetDependency */,
+			);
+			name = "Switch Payload LauncherTests";
+			productName = "Switch Payload LauncherTests";
+			productReference = 656654FC28654A73004556E0 /* Switch Payload LauncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6566550528654A73004556E0 /* Switch Payload LauncherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6566551628654A73004556E0 /* Build configuration list for PBXNativeTarget "Switch Payload LauncherUITests" */;
+			buildPhases = (
+				6566550228654A73004556E0 /* Sources */,
+				6566550328654A73004556E0 /* Frameworks */,
+				6566550428654A73004556E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6566550828654A73004556E0 /* PBXTargetDependency */,
+			);
+			name = "Switch Payload LauncherUITests";
+			productName = "Switch Payload LauncherUITests";
+			productReference = 6566550628654A73004556E0 /* Switch Payload LauncherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		656654E328654A70004556E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					656654EA28654A70004556E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					656654FB28654A73004556E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 656654EA28654A70004556E0;
+					};
+					6566550528654A73004556E0 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 656654EA28654A70004556E0;
+					};
+				};
+			};
+			buildConfigurationList = 656654E628654A70004556E0 /* Build configuration list for PBXProject "Switch Payload Launcher" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 656654E228654A70004556E0;
+			productRefGroup = 656654EC28654A70004556E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				656654EA28654A70004556E0 /* Switch Payload Launcher */,
+				656654FB28654A73004556E0 /* Switch Payload LauncherTests */,
+				6566550528654A73004556E0 /* Switch Payload LauncherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		656654E928654A70004556E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656654F628654A73004556E0 /* Preview Assets.xcassets in Resources */,
+				656654F328654A73004556E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656654FA28654A73004556E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6566550428654A73004556E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		656654E728654A70004556E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656654F128654A70004556E0 /* ContentView.swift in Sources */,
+				656654EF28654A70004556E0 /* Switch_Payload_LauncherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656654F828654A73004556E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6566550128654A73004556E0 /* Switch_Payload_LauncherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6566550228654A73004556E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6566550B28654A73004556E0 /* Switch_Payload_LauncherUITests.swift in Sources */,
+				6566550D28654A73004556E0 /* Switch_Payload_LauncherUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		656654FE28654A73004556E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 656654EA28654A70004556E0 /* Switch Payload Launcher */;
+			targetProxy = 656654FD28654A73004556E0 /* PBXContainerItemProxy */;
+		};
+		6566550828654A73004556E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 656654EA28654A70004556E0 /* Switch Payload Launcher */;
+			targetProxy = 6566550728654A73004556E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6566550E28654A73004556E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6566550F28654A73004556E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6566551128654A73004556E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Switch Payload Launcher/Switch_Payload_Launcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Switch Payload Launcher/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lucaskobashi.Switch-Payload-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6566551228654A73004556E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Switch Payload Launcher/Switch_Payload_Launcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Switch Payload Launcher/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lucaskobashi.Switch-Payload-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6566551428654A73004556E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lucaskobashi.Switch-Payload-LauncherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Switch Payload Launcher.app/Contents/MacOS/Switch Payload Launcher";
+			};
+			name = Debug;
+		};
+		6566551528654A73004556E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lucaskobashi.Switch-Payload-LauncherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Switch Payload Launcher.app/Contents/MacOS/Switch Payload Launcher";
+			};
+			name = Release;
+		};
+		6566551728654A73004556E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lucaskobashi.Switch-Payload-LauncherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Switch Payload Launcher";
+			};
+			name = Debug;
+		};
+		6566551828654A73004556E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lucaskobashi.Switch-Payload-LauncherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Switch Payload Launcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		656654E628654A70004556E0 /* Build configuration list for PBXProject "Switch Payload Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6566550E28654A73004556E0 /* Debug */,
+				6566550F28654A73004556E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6566551028654A73004556E0 /* Build configuration list for PBXNativeTarget "Switch Payload Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6566551128654A73004556E0 /* Debug */,
+				6566551228654A73004556E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6566551328654A73004556E0 /* Build configuration list for PBXNativeTarget "Switch Payload LauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6566551428654A73004556E0 /* Debug */,
+				6566551528654A73004556E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6566551628654A73004556E0 /* Build configuration list for PBXNativeTarget "Switch Payload LauncherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6566551728654A73004556E0 /* Debug */,
+				6566551828654A73004556E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 656654E328654A70004556E0 /* Project object */;
+}
